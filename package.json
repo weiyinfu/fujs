@@ -1,0 +1,14 @@
+{
+  "name": "fujs",
+  "version": "1.0.0",
+  "description": "积累有用JS片段和组件。",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
