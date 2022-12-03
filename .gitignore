@@ -1,2 +1,14 @@
 node_modules/
 node_modules
+
+*.iml
+__pycache__/
+.pynb_checkpoints
+.vscode/
+.DS_Store
+yarn.lock
+.pytest_cach
+*.lock
+package-lock.json
+.idea/
+yarn-error.log

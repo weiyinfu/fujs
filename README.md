@@ -1,6 +1,6 @@
 积累有用JS片段和组件。
 
-本repo的使用方法：`ln -s fujs/fu fu`
+本repo的使用方法：`npm install <本仓库路径>`或者`yarn add <本仓库路径>`
 
 # 目录结构
 * component：组件

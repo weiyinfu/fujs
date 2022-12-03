@@ -1,0 +1,23 @@
+@import "./common.less";
+
+.HeaderBody(@header-height, @header-background-color,@footer-height:0) {
+  .fillParent();
+
+  .header {
+    padding: 0 10px;
+    height: @header-height;
+    background: @header-background-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @header-footer-height: @header-height+@footer-height;
+  .body {
+    height: calc(~"100% -" @header-footer-height);
+    overflow: auto;
+  }
+  .footer {
+    height: @footer-height;
+    overflow: auto;
+  }
+}
