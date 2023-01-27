@@ -12,3 +12,8 @@ yarn.lock
 package-lock.json
 .idea/
 yarn-error.log
+
+
+build
+.pytest_cache
+cmake-build-debug
