@@ -17,3 +17,7 @@ yarn-error.log
 build
 .pytest_cache
 cmake-build-debug
+pnpm-lock.json
+.ipynb_checkpoints/
+web-ext-artifacts
+target/

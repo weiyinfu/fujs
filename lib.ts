@@ -41,9 +41,9 @@ export function listObject2dict(a: any[], k: string, v: string) {
 }
 
 export function size2string(t: number) {
-    const ind = Math.floor(Math.log(t) / Math.LOG2E / 10);
+    const ind = Math.floor(Math.log2(t) / 10);
     const sizes = 'B k M G'.split(/\s+/);
-    let ans = Math.floor(t / (2 ** (10 * ind))) + sizes[ind + 1];
+    let ans = (t / (2 ** (10 * ind))).toFixed(2) + sizes[ind + 1];
     if (!ans) return '';
     return ans + 'B';
 }
@@ -53,6 +53,7 @@ export function randInt(beg: number, end: number) {
     const size = end - beg;
     return Math.floor(Math.random() * size) + beg;
 }
+
 export function camelCase(data: any) {
     //把response中的data转换成驼峰命名法
     function to(s: string) {
