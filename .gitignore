@@ -21,3 +21,4 @@ pnpm-lock.json
 .ipynb_checkpoints/
 web-ext-artifacts
 target/
+pnpm-lock.yaml
